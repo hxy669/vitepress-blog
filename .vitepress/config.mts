@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from "vitepress-sidebar";
+import { sideBarData } from "./sidebarOptions";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -48,15 +50,7 @@ export default defineConfig({
       {text: "前端面试", link: "/interview/CSS/prev"}
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: generateSidebar(sideBarData),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
