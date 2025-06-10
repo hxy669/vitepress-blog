@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/vitepress-blog/',
   title: "Fynn's Blog",
   description: "A VitePress Site",
-  head: [["link", { rel: "icon", href: "/blog.svg" }]],
+  head: [["link", { rel: "icon", href: "/vitepress-blog/blog.svg" }]],
   themeConfig: {
      // 网站的logo
      logo: "/logo.svg",
