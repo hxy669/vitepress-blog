@@ -2,7 +2,7 @@
 import { h } from 'vue'
 import  { inBrowser, type Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import Layout from "./Layout.vue";
+import Layout from "./layout.vue";
 import confetti from "./components/confetti.vue";
 import VisitorPanel from "./components/VisitorPanel.vue";
 import busuanzi from "busuanzi.pure.js";
