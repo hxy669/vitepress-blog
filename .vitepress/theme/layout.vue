@@ -6,10 +6,10 @@
       <div style="margin-top: 24px">
         <Giscus
           :key="page.filePath"
-          repo="*"
-          repo-id="*"
-          category="*"
-          category-id="*"
+          repo="hxy669/vitepress-blog"
+          repo-id="R_kgDOOygLOQ"
+          category="Ideas"
+          category-id="DIC_kwDOOygLOc4CrSnV"
           mapping="pathname"
           strict="0"
           reactions-enabled="1"
