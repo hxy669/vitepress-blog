@@ -14,9 +14,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@giscus/vue": "^3.1.1",
     "vitepress": "^1.6.3",
     "vitepress-sidebar": "^1.25.0"
   },
-  "packageManager": "pnpm@8.14.0"
+  "packageManager": "pnpm@8.14.0",
+  "dependencies": {
+    "@giscus/vue": "^3.1.1",
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3",
+    "vue": "^3.5.16"
+  }
 }
